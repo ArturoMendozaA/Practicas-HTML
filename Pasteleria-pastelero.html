@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pastelero</title>
+    <link rel="stylesheet" href="Pasteleria.css">
+    <style>
+form{
+    display: table;
+}
+p{
+    display: table-row;
+}
+label{
+    display: table-cell;
+}
+input{
+    display:table-cell
+}
+
+    </style>
+</head>
+<body class="cuerpo">
+
+    <img class="banner" id="Top"src="Img/Pastel/Logo/default_transparent_765x625.png" alt="Logo Cake fantastic">
+    <br>
+
+
+<!El pastelero necesita tener la información de la cantidad de sabores que le quedan para hacer los pasteles.
+El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
+El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.>
+
+<h2 class="Head2">Sabores Restantes</h2>
+<form class="pasteleroItems">
+
+    <p><label for="sabor1">Vainilla</label>
+    <input type="text" name="sabor1" id="sabor1" value="5"><br></p>
+
+    <p><label for="sabor2">Chocolate</label>    
+    <input type="text" name="sabor2" id="sabor2" value="10"><br></p>
+
+    <p><label for="sabor3">Naranja</label>
+    <input type="text" name="sabor3" id="sabor3" value="9"><br></p>
+
+    <p><label for="sabor4">Limon</label>
+    <input type="text" name="sabor4" id="sabor4" value="3"><br></p>
+
+</form>
+
+
+<h2 class="Head2">Adornos restantes</h2>
+<form class="pasteleroItems">
+    
+    <p><label for="topping1">Arcoiris</label>
+    <input type="text" name="topping1" id="topping1" value="3"></p>
+    
+    <p><label for="topping2">Macaron</label>
+    <input type="text" name="topping2" id="topping2" value="5"></p>
+    
+    <p><label for="topping1">4th</label>
+    <input type="text" name="topping3" id="topping3" value="8"></p>
+    
+    <p><label for="topping1">Rosas</label>
+    <input type="text" name="topping4" id="topping4" value="4"></p>
+    
+    <p><label for="topping1">Fruta</label>
+    <input type="text" name="topping5" id="topping5" value="1"></p>    
+    
+</form>
+<h2 class="Head2">Tabla de pedidos con los datos del formulario</h2>
+
+<pre class="parrafo">
+Pedido 1
+Topping
+Combinado con
+Sabores
+
+Nombre 
+Correo
+Telefono
+Comentarios 
+</pre> 
+<br><br><br><br>
+
+
+</body>
+</html>

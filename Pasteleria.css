@@ -1,0 +1,128 @@
+.cuerpo{
+    background-color: #EED3D9; 
+    text-align: center;
+
+}
+.banner{
+
+    background-color: #5C2751;
+    width:20%;
+    max-height: auto;
+    
+}
+
+h1.Head1{
+
+    text-align: center;
+    color: #C96480;
+
+}
+
+h2.Head2{color: #C96480}
+
+.parrafo{
+    color: #577590;
+    font-weight: bold;
+    font-size: 125%;
+}
+
+.pastelImages{
+    /* background-color: #F7F0F5; */
+    width: 50%;
+    border-radius: 1%;
+}
+
+.unorderedl{
+    /* color: #577590;   */
+    color: #C96480;
+    font-size: larger;
+    list-style-image: url("Img/Pastel/Logo/favicon_32x32.png");
+}
+
+.lista{
+    background-color: #F7F0F5;
+    width: 30%;
+    margin: auto;
+    border-radius: 3%;
+    border-inline: 1rem solid;
+    border-top: #5C2751 solid;
+    border-bottom: #5C2751 medium;
+}
+
+.direccion{
+    font-weight: bold;
+    font-size: 150%;
+    color:#577590;
+}
+.SaboresLi{
+    font-size: larger;
+    background-color: #F7F0F5;
+    color: #577590;
+    width: 8%;
+    /* height: 2%; */
+    /* border-top-right-radius: 100%;
+    border-bottom-right-radius: 100%; */
+    padding-bottom: 1%;
+    
+    text-align:justify;
+
+}
+.Izquierda{
+    right: 0%;
+    text-align: left;
+}
+
+.Selecciones{
+    text-align: justify;
+    color: #577590;
+}
+.imagenI{
+    text-align: left;
+}
+/*  */
+
+
+
+
+/*  */
+
+
+
+.parent {
+    border: 5px solid #5C2751;
+    margin: 2%;
+    padding: 1% 1%;
+    color: #577590;
+
+  }
+  .child {
+    display: inline-block;
+    /* border: 1px solid red; */
+    padding: 3% 2%;
+    vertical-align: middle;
+  }
+
+  .imagenSeccion{
+      font-size: x-large;
+      font-weight:700;
+      text-align: justify;
+      
+  }
+  .datosSection{
+      text-align:left;
+      width:auto;
+      padding-left: 46%;
+  }
+  input[type=checkbox] {
+    transform: scale(1.7);
+}
+
+.pasteleroItems{
+
+    color: #577590;
+    font-weight: bold;
+    font-size: 125%;
+    text-align: left;
+    padding-left: 45%;
+
+}
